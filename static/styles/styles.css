@@ -1,0 +1,57 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    /* background: url("https://wallpaperaccess.com/full/1526012.png"); */
+}
+
+p {
+    font-size: 2em;
+}
+
+h1{
+    background-color: rgb(0, 153, 0);
+    padding: 1em;
+}
+
+a{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+a:hover{
+    background-color: #4CAF50; 
+    color: white; 
+    border: 2px solid white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+a:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.centered-text{
+    text-align: center;
+    background-color: rgba(204, 204, 255, 10);
+}
+
+.image-container{
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    text-align: center;
+}
